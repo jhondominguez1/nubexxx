@@ -1,0 +1,3 @@
+function numAleat(limInf, limSup){
+ +            return limInf + Math.floor( Math.random() * (limSup - limInf + 1) );
+ +        }
